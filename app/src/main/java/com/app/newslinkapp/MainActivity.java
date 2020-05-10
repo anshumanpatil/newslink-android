@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         webview.setWebChromeClient(new WebChromeClient());
 //        webview.setWebViewClient(new MyWebViewClient());
         webview.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
-        webview.loadUrl("http://newslink.co.in/");
+        webview.loadUrl("http://newslink.co.in");
 //        Toolbar toolbar = findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
 //
